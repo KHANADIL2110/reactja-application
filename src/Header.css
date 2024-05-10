@@ -1,0 +1,330 @@
+   
+
+   
+   div#box{
+    border:1px solid black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(250, 238, 216) 
+    
+  }
+
+
+img{
+    width:15%;
+    height: 100%;
+    margin-left: 5%;
+    background-color:rgb(250, 238, 216) 
+    
+}
+
+div#box section.header{
+    
+    width:40%;
+    display: flex;
+    align-items: center;
+    
+}
+
+div#box section.header span#span-1{
+    
+    font-size: 15px;
+    color:black;
+    text-transform:capitalize;
+    border-bottom: 0;
+    font-family: verdana;
+}
+
+
+
+
+
+
+
+div#box section button{
+    margin-right:10px;
+    height: 35%;
+    padding-bottom: 1%;
+    font-size: 15px;
+    border: 1px solid
+}
+
+
+div div#location{
+    
+    height: 75vh;
+    display: flex;
+    background-color:rgb(250, 238, 216)
+}
+
+section#sec1{
+    
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    
+}
+
+
+.welcome-label{
+    align-self: flex-start;
+    margin-top: 5%;
+    
+   
+}
+
+.label-1{
+    padding: 0 0 0 40px;
+    margin: 0;
+    text-align: left;
+    font-family: Lucida Sans Unicode;
+    font-weight: bold;
+    color: rgb(119, 4, 67);
+    font-size: 38px;
+    font-family: verdana;
+}
+
+mark{
+    color: rgb(248, 106, 130);
+    background: none;
+}
+
+.label-2{
+    width:60%;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.75rem;
+    padding:0 0 0 40px;
+    font-family: verdana;
+    
+}
+
+
+input::placeholder{
+    font-size: 20px;
+    
+    
+}
+
+input[type]{
+    padding-left: 2%;
+}
+
+
+
+svg{
+    margin-right: 5%;
+}
+
+
+
+
+div#location section#sec2{
+    /* border:1px solid blue; */
+    margin-top: 2%;
+    width: 65%;
+    height: 99%;
+    display:grid;
+    justify-content:space-between;
+    grid-template-columns: 30% 30% 30% 30% 30%;
+    grid-template-rows: 60% 70% 95% 80%;
+
+    grid-column-gap: 3%;
+    grid-row-gap: 10px;
+    
+
+    
+
+}
+
+
+
+section#sec2 div:nth-child(5){
+    
+    grid-row-start: 2;
+    grid-column-end: 3;
+    height: 20vh;
+    border-radius:10px ; 
+    border: 0;  
+}
+
+section#sec2 div:nth-child(5) img{
+    width:100%;
+    margin:0;
+    border-radius: 10px;
+    height: 30vh;
+    margin-top: 14%;
+
+}
+section#sec2 div:nth-child(1){
+    margin-top: 55%;
+    height: 45vh;
+    border-radius: 10px;
+    border: 0;
+    
+
+}
+
+section#sec2 div:nth-child(1) img{ 
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+section#sec2 div:nth-child(2){
+    margin-top: 10%;
+    height: 45vh;
+    border-radius: 10px;
+    border:0
+}
+
+section#sec2 div:nth-child(2) img{
+    width:100%;
+    margin:0;
+    border-radius: 10px;
+}
+
+section#sec2 div:nth-child(4){
+    
+    grid-row-end: 2;
+    grid-row-start: 5;
+    grid-column-start: 5;
+    grid-column-end: 3;
+    height: 20%;
+    width:45%;
+    border-radius: 10px;
+    border:0;
+    
+
+
+}
+
+section#sec2 div:nth-child(4) img{
+    width:105%;
+    margin: 0;
+    border-radius: 10px;
+    height: 40vh;
+    margin-top: 3%;
+
+}
+
+section#sec2 div:nth-child(3) img{
+    width:100%;
+    margin: 0;
+    border-radius: 10px;
+
+}
+
+section#sec2 div:nth-child(3){
+    border-radius: 10px;
+    border: 0;
+    
+}
+
+div div#btn{
+    
+    width: 30%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 38%;
+    position: relative;
+    top:-45px;
+    
+}
+
+div div#btn button.btn{
+    margin-left: 5%;
+    font-size: 20px;
+    border: 0;
+    background:transparent;
+
+    
+
+}
+
+div#btn div#loc {
+    width: fit-content;
+    margin-left: 5%;
+    padding:2%;
+    padding-right: 5%;
+    display: flex;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    
+
+}
+
+div#btn div#loc:hover{
+    background-color: rgb(180, 199, 8);
+    color: white;
+    font-weight:600;
+}
+
+
+
+
+div#btn div#loc svg{
+    color:rgb(127, 179, 7);
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+div#btn button#loc svg:hover{
+    color:white;
+}
+
+
+
+.search-field{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding:2px !important;
+    box-shadow: 0px 0px  0px 2px rgb(226, 225, 225);
+    background-color: white;
+    border-radius: 35px;
+    width: 65%;
+    margin: 5%;
+    
+}
+
+.search-field .input{
+    flex-grow: 1;
+    border:0;
+    outline:0;
+    font-size: 20px;
+    border-radius: 35px;
+    padding:0.7em !important;
+}
+
+
+.search-field .search-btn{
+    color:rgb(73, 72, 72);
+    
+    background-color: rgb(250, 186, 68);
+    border: 0;
+    border-radius: 70px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 2px;
+    text-align: center;
+    width:7em
+    
+    
+
+    
+}
+
+.search-field .search-btn span{
+    color: black;
+    font-size: 15px;
+    margin-right:15%;
+    text-transform:capitalize;
+    border-bottom: 0;
+}
